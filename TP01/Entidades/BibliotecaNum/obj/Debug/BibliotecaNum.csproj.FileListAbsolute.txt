@@ -1,6 +1,0 @@
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\bin\Debug\BibliotecaNum.dll
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\bin\Debug\BibliotecaNum.pdb
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\obj\Debug\BibliotecaNum.csproj.CoreCompileInputs.cache
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\obj\Debug\BibliotecaNum.dll
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\obj\Debug\BibliotecaNum.pdb
-C:\Users\Soa\source\repos\Entidades\BibliotecaNum\obj\Debug\BibliotecaNum.csprojAssemblyReference.cache
