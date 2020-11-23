@@ -88,12 +88,70 @@ namespace Entidades
             else
                 return true;
         }
+        public static EMarca Marca(string marca)
+        {
+            switch (marca)
+            {
+                case "Pepsi":
+                    return EMarca.Pepsi;
+                case "Manaos":
+                    return EMarca.Manaos;
+                default:
+                    return EMarca.Coca;
+            }
+        }
         /// <summary>
-        /// trae todos los elementos de la bd
+        /// trae todos los elementos de la bd y los diferencia por productos para serializar.
         /// </summary>
         /// <param name="inv"></param>
         /// <returns></returns>
-        public List<Cerveza> ListarProductos()
+        public List<Object> ListarProductos()
+        {
+            try
+            {
+                using (SqlConnection sqlConnection = new SqlConnection(this.connectionString))
+                {
+                    this.sqlConnection.Open();
+                    string command = "select * from Cervezas order by Stock";
+                    SqlCommand sqlCommand = new SqlCommand(command, this.sqlConnection);
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    List<Object> productos = new List<Object>();
+                    Object producto;
+                    while (reader.Read())
+                    {
+                        int inventario = (int)reader["Inventario"];
+                        string estilo = (string)reader["Estilo"];
+                        double alcohol = 0;
+                        if (reader["Alcohol"] != DBNull.Value)
+                            alcohol = (double)Convert.ToDouble(reader["Alcohol"]);
+                        double precio = (double)Convert.ToDouble(reader["Precio"]);
+                        int stock = (int)reader["Stock"];
+                        if (alcohol == 0)
+                            producto = new Gaseosa(inventario, Marca(reader["Estilo"].ToString()), precio, stock);
+                        else
+                            producto = new Cerveza(inventario, estilo, alcohol, precio, stock);
+                        productos.Add(producto);
+                    }
+                    return productos;
+                }
+            }
+            catch(InvalidCastException ex)
+            {
+                throw new ExcepcionDAO("Ocurrio un error al leer datos de la BD", ex);
+            }
+            finally
+            {
+                if (sqlConnection != null && sqlConnection.State == System.Data.ConnectionState.Open)
+                {
+                    this.sqlConnection.Close();
+                }
+            }
+        }
+        /// <summary>
+        /// trae todos los elementos de la bd para actualizar el DataGrid,  disculpas por repetir codigo, con el de arriba me fue imposible y no me queda tiempo
+        /// </summary>
+        /// <returns></returns>
+        public List<Cerveza> ListarProductosGrid()
         {
             try
             {
@@ -118,10 +176,6 @@ namespace Entidades
                     }
                     return productos;
                 }
-            }
-            catch(InvalidCastException ex)
-            {
-                throw new ExcepcionDAO("Ocurrio un error al leer datos de la BD", ex);
             }
             finally
             {

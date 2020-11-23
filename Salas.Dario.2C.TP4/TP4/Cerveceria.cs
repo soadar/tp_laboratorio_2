@@ -15,6 +15,7 @@ namespace TP4
     public partial class Cerveceria : Form
     {
         delegate void Callback();
+        DAO dao = new DAO();
         Thread thread;
         public Cerveceria()
         {
@@ -47,7 +48,7 @@ namespace TP4
             {
                 dataGridInforme.Visible = true;
                 DAO dao = new DAO();
-                dataGridInforme.DataSource = dao.ListarProductos();
+                dataGridInforme.DataSource = dao.ListarProductosGrid();
             }
         }
         private void btnAgregarStock_Click(object sender, EventArgs e)
@@ -97,8 +98,7 @@ namespace TP4
             }
             else
             {
-                DAO dao = new DAO();
-                this.dataGridInforme.DataSource = dao.ListarProductos();
+                this.dataGridInforme.DataSource = dao.ListarProductosGrid();
             }
         }
 
@@ -114,6 +114,20 @@ namespace TP4
         {
             Log log = new Log();
             DialogResult result = log.ShowDialog();
+        }
+
+        private void btnGuardarXml_Click(object sender, EventArgs e)
+        {
+            GuardarXml();
+        }
+        public void GuardarXml()
+        {
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            if (DialogResult.OK == dialog.ShowDialog())
+            {
+                string carpeta = dialog.SelectedPath;
+                Serializador.Serializar(dao.ListarProductos(), carpeta);
+            }
         }
     }
 }

@@ -34,11 +34,13 @@
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnAgregarStock = new System.Windows.Forms.Button();
             this.bntLog = new System.Windows.Forms.Button();
+            this.btnGuardarXml = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInforme)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridInforme
             // 
+            this.dataGridInforme.AllowUserToOrderColumns = true;
             this.dataGridInforme.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridInforme.Location = new System.Drawing.Point(130, 212);
             this.dataGridInforme.Name = "dataGridInforme";
@@ -101,7 +103,7 @@
             // bntLog
             // 
             this.bntLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntLog.Location = new System.Drawing.Point(303, 390);
+            this.bntLog.Location = new System.Drawing.Point(221, 390);
             this.bntLog.Name = "bntLog";
             this.bntLog.Size = new System.Drawing.Size(163, 48);
             this.bntLog.TabIndex = 5;
@@ -109,18 +111,31 @@
             this.bntLog.UseVisualStyleBackColor = true;
             this.bntLog.Click += new System.EventHandler(this.bntLog_Click);
             // 
+            // btnGuardarXml
+            // 
+            this.btnGuardarXml.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarXml.Location = new System.Drawing.Point(409, 390);
+            this.btnGuardarXml.Name = "btnGuardarXml";
+            this.btnGuardarXml.Size = new System.Drawing.Size(163, 48);
+            this.btnGuardarXml.TabIndex = 6;
+            this.btnGuardarXml.Text = "Guardar XML";
+            this.btnGuardarXml.UseVisualStyleBackColor = true;
+            this.btnGuardarXml.Click += new System.EventHandler(this.btnGuardarXml_Click);
+            // 
             // Cerveceria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TP4.Properties.Resources.vasos;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGuardarXml);
             this.Controls.Add(this.bntLog);
             this.Controls.Add(this.dataGridInforme);
             this.Controls.Add(this.bntSalir);
             this.Controls.Add(this.btnInforme);
             this.Controls.Add(this.btnVentas);
             this.Controls.Add(this.btnAgregarStock);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Cerveceria";
@@ -141,6 +156,7 @@
         private System.Windows.Forms.Button btnVentas;
         private System.Windows.Forms.Button btnAgregarStock;
         private System.Windows.Forms.Button bntLog;
+        private System.Windows.Forms.Button btnGuardarXml;
     }
 }
 
