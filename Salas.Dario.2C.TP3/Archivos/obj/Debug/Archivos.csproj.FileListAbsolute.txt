@@ -1,9 +1,0 @@
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\bin\Debug\Archivos.dll
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\bin\Debug\Archivos.pdb
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\obj\Debug\Archivos.dll
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\obj\Debug\Archivos.pdb
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\bin\Debug\Excepciones.dll
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\bin\Debug\Excepciones.pdb
-C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete

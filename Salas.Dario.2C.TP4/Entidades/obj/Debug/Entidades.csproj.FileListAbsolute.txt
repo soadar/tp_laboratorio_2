@@ -1,0 +1,6 @@
+C:\Users\Soa\source\repos\Cerveceria\Entidades\bin\Debug\Entidades.dll
+C:\Users\Soa\source\repos\Cerveceria\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Soa\source\repos\Cerveceria\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Soa\source\repos\Cerveceria\Entidades\obj\Debug\Entidades.dll
+C:\Users\Soa\source\repos\Cerveceria\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Soa\source\repos\Cerveceria\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

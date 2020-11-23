@@ -1,0 +1,8 @@
+------------------------
+Inventario: 0
+Estilo: Porter
+Alcohol: 1,1
+Precio: 2,2
+Stock: 10
+------------------------
+
