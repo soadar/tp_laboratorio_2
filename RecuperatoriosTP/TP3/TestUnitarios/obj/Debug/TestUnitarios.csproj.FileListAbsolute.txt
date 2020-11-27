@@ -1,0 +1,25 @@
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\TestUnitarios.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\TestUnitarios.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Clases Instanciables.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Excepciones.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Salas.Dario.2C.TP3.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Archivos.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Clases Instanciables.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Excepciones.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Salas.Dario.2C.TP3.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\bin\Debug\Archivos.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\obj\Debug\TestUnitarios.csprojAssemblyReference.cache
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\obj\Debug\TestUnitarios.csproj.CoreCompileInputs.cache
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\obj\Debug\TestUnitarios.csproj.CopyComplete
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\obj\Debug\TestUnitarios.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\TestUnitarios\obj\Debug\TestUnitarios.pdb

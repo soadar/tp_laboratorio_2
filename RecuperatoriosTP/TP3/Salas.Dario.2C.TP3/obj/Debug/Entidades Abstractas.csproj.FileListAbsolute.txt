@@ -1,0 +1,9 @@
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\obj\Debug\Entidades Abstractas.csprojAssemblyReference.cache
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\obj\Debug\Entidades Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\bin\Debug\Salas.Dario.2C.TP3.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\bin\Debug\Salas.Dario.2C.TP3.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\bin\Debug\Excepciones.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\bin\Debug\Excepciones.pdb
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\obj\Debug\Entidades Abstractas.csproj.CopyComplete
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\obj\Debug\Salas.Dario.2C.TP3.dll
+C:\Users\Soa\source\repos\Salas.Dario.2C.TP3\Salas.Dario.2C.TP3\obj\Debug\Salas.Dario.2C.TP3.pdb
