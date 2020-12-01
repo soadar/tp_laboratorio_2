@@ -78,7 +78,7 @@ namespace ClasesInstanciables
         /// Lee un archivo de texto.
         /// </summary>
         /// <returns></returns>
-        public string Leer()
+        public static string Leer()
         {
             Texto file = new Texto();
             file.Leer("Jornada.txt", out string datos);
