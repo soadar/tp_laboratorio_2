@@ -46,7 +46,7 @@ namespace Archivos
             }
             catch (Exception)
             {
-                throw new ArchivosException("Error al abrir el archivo TXT");
+                throw new ArchivosException("Error al leer el archivo TXT");
             }
         }
     }

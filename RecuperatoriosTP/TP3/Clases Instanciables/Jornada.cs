@@ -135,7 +135,7 @@ namespace ClasesInstanciables
             sb.AppendLine("CLASE DE " + this.Clase + " POR " + Instructor.ToString());
             if (this.Alumnos.Count != 0)
             {
-                sb.AppendLine("Alumnos: ");
+                sb.AppendLine("ALUMNOS: ");
                 foreach (Alumno alumno in this.Alumnos)
                 {
                     sb.AppendLine(alumno.ToString());

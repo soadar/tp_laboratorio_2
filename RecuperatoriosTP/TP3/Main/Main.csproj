@@ -58,9 +58,9 @@
       <Project>{4db1e821-12fa-47fc-8534-3a09cd92f315}</Project>
       <Name>Excepciones</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Salas.Dario.2C.TP3\Entidades Abstractas.csproj">
+    <ProjectReference Include="..\Salas.Dario.2C.TP3\Clases Abstractas.csproj">
       <Project>{75cd7c1a-daef-477a-8a50-182d8a4f4e1d}</Project>
-      <Name>Entidades Abstractas</Name>
+      <Name>Clases Abstractas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

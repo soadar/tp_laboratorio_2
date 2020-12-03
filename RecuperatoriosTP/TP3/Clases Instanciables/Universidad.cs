@@ -158,7 +158,7 @@ namespace ClasesInstanciables
                 if (profe == clase)
                     return profe;
             }
-            throw new SinProfesorException("No hay Profesor para la clase.");
+            throw new SinProfesorException();
         }
         /// <summary>
         /// Sobrecarga operador ==, retorna el primer profesor en no dar la clase.
@@ -173,7 +173,7 @@ namespace ClasesInstanciables
                 if (profe != clase)
                     return profe;
             }
-            throw new SinProfesorException("No hay Profesor para la clase.");
+            throw new SinProfesorException();
         }
         /// <summary>
         /// Sobrecarga del operador +, se genera una nueva jordana, agregando la clase nueva y un profesor que pueda brindarla.
@@ -202,7 +202,7 @@ namespace ClasesInstanciables
         public static Universidad operator +(Universidad u, Alumno a)
         {
             if (u == a)
-                throw new AlumnoRepetidoException("Alumno repetido.");
+                throw new AlumnoRepetidoException();
             u.Alumnos.Add(a);
             return u;
         }
@@ -226,7 +226,7 @@ namespace ClasesInstanciables
         private static string MostrarDatos(Universidad uni)
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Jornadas: ");
+            sb.AppendLine("JORNADA: ");
             foreach (Jornada jorna in uni.Jornadas)
             {
                 sb.AppendLine(jorna.ToString());

@@ -4,7 +4,7 @@ namespace Excepciones
 {
     public class ArchivosException : Exception
     {
-        public ArchivosException() : base()
+        public ArchivosException() : base("Ocurrio un error con el archivo.")
         {
 
         }

@@ -139,7 +139,7 @@ namespace EntidadesAbstractas
                 return dato;
             else if (nacionalidad == ENacionalidad.Extranjero && dato >= 90000000 && dato <= 99999999)
                 return dato;
-            throw new NacionalidadInvalidaException("Nacionalidad Incorrecta");
+            throw new NacionalidadInvalidaException();
         }
         /// <summary>
         /// Valida si el string recibido es un dni valido.
@@ -155,7 +155,7 @@ namespace EntidadesAbstractas
                 return dni;
             }
             else
-                throw new DniInvalidoException("El dni tiene caracteres que no corresponden");
+                throw new DniInvalidoException("Se detectaron caracteres invalidos");
         }
         /// <summary>
         /// Valida si el string contiene solo letras o espacios

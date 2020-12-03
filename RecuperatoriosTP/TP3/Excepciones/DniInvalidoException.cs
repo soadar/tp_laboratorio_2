@@ -4,7 +4,7 @@ namespace Excepciones
 {
     public class DniInvalidoException : Exception
     {
-        public DniInvalidoException() : base()
+        public DniInvalidoException() : base("DNI invalido")
         {
 
         }

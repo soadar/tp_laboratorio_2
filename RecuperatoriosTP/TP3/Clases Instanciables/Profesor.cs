@@ -23,7 +23,7 @@ namespace ClasesInstanciables
             for (int i = 0; i < 2; i++)
             {
                 this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, Enum.GetNames(typeof(Universidad.EClases)).Length));
-                Thread.Sleep(300);
+                Thread.Sleep(500);
             }
         }
         /// <summary>

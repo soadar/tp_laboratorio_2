@@ -4,6 +4,7 @@ using ClasesInstanciables;
 using EntidadesAbstractas;
 using Excepciones;
 using Archivos;
+using System.Collections.Generic;
 
 namespace TestUnitarios
 {
@@ -42,6 +43,12 @@ namespace TestUnitarios
             string datos;
             testTexto.Leer(@"C:\Probando.txt", out datos);
         }
-
+        [TestMethod]
+        public void ListaDeAlumnosNotNull()
+        {
+            Jornada jornada = new Jornada(Universidad.EClases.Laboratorio, new Profesor());
+            List<Alumno> alumnos = jornada.Alumnos;
+            Assert.IsNotNull(alumnos);
+        }
     }
 }
